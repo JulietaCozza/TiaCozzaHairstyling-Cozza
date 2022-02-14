@@ -12,6 +12,11 @@ body{
 /*Fin  Generales*/
 
 /*Header*/
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 li{
     list-style-type: none;
     margin:6px 6px

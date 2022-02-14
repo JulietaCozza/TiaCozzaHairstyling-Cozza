@@ -15,6 +15,9 @@
 
     <!--fin font-->
 
+    <!--animacion-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Tia Cozza Hairstyling</title>
 </head>
 <body>
@@ -36,7 +39,7 @@
                     <a href="#opiniones">OPINIONES</a>
                 </li>
                 <li>
-                    <a href="#sobreMi">SOBRE MI</a>
+                    <a href="#sobreMiSeccion">SOBRE MI</a>
                 </li>
                 <li>
                     <a href="#contacto">CONTACTO</a>
@@ -78,7 +81,7 @@
                 </p>
         </div>    
         
-        <div id="ImagenPeinados">
+        <div data-aos="fade-up" id="ImagenPeinados">
             <img src="Imagenes/fotoscaarousel-1.jpeg" alt="peinado recogido uno">
             <img src="Imagenes/fotoscaarousel-2.jpeg" alt="peinado recogido dos">
             <img src="Imagenes/fotoscaarousel-3.jpeg" alt="peinado recogido tres">
@@ -91,7 +94,7 @@
     </section>
     <!--Fin de QUÉ OFREZCO-->
     <!--Inicio de OPINIONES-->
-    <section id="opinioness">
+    <section id="opiniones">
         <div>
             <h3 class="tituloOpiniones">
             OPINIONES
@@ -143,7 +146,7 @@
     <!--Inicio de SOBRE MI-->
     <section id="sobreMiSeccion">
         <div class="SobreMi">
-           <div class="ContenedorFoto"> 
+           <div data-aos="fade-up" class="ContenedorFoto"> 
                <img class="fotoMia" src="Imagenes/fotoyo.jpg" alt="Foto autobiografica">
             </div>
             <div class="TextoSobremi">
@@ -251,6 +254,12 @@
     </div>
     </footer>
     <!--Fin del footer-->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 
 </html>
