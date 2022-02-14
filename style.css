@@ -132,7 +132,7 @@ h3{
     display: flex;
     align-items: center;
     width: 85%;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 110px; 
 }
 .coment{
@@ -145,8 +145,8 @@ h3{
     padding: 20px;
     justify-content: space-around;
     margin-left: 25px;
-    margin-top: 100px;
-    margin-bottom: 300px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     box-shadow: 10px 10px 19px -10px rgba(0,0,0,0.41);
     -webkit-box-shadow: 10px 10px 19px -10px rgba(0,0,0,0.41);
     -moz-box-shadow: 10px 10px 19px -10px rgba(0,0,0,0.41);
