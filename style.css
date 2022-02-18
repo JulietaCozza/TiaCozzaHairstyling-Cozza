@@ -31,10 +31,14 @@ li{
 a{
     text-decoration: none
 }
-header nav ul li a{
+.header-container ul li a{
     color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.header-container ul li a:hover{
+    color:#fff
+}
+
 ul{
     margin-left: 5px;
     padding: 20px 0;
@@ -44,12 +48,8 @@ ul{
     justify-content: left;
     flex-wrap: wrap;
 }
-nav{
+.header-container{
     background-color: #678983;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    margin-bottom: 50px;
 }
 .logo{
     height: auto;
@@ -120,11 +120,11 @@ h3{
     margin:auto;
     margin-top: 30px;
 }
-#ImagenPeinados{
+.carousel-inner{
   display: flex;
   align-items: center;
-  width: 75%;
-  padding-left: 200px;
+  padding: 20px;
+  width: 35%;
   margin-top: 50px;
 }
 .mostrarMas{
@@ -328,11 +328,6 @@ h5{
      margin-left: 0px;
      margin-right: 0px;
     }
-    #ImagenPeinados{
-        width: 100%;
-        margin-top: 50px;
-        padding-left: 0px;
-      }
     .mostrarMas{
         margin-left: 20px;
         font-size: 20px;
@@ -467,3 +462,19 @@ h5{
     margin-left: 20px;
 }
 /*Fin seccion galeria*/
+
+.ajuste_tamanio{
+    max-height: 500px;
+}
+
+.alto_carrousel{
+    max-height: 500px;
+}
+
+.alto_imagenes{
+    max-height: 500px;
+}
+
+.c_foto{
+    display: inline-block;
+}
